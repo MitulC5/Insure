@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+body{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+	width: fit-content;
+    padding: 20px;
+    border: 2px solid #673ab75e;
+    box-shadow: 0px 0px 8px 0px #9c27b078;
+    border-radius: 10px;
+}
+
+h3{
+	text-align: center;
+	color: #673ab7;
+}
+
+.holder{
+ 	margin: 10px;
+    padding: 10px;
+}
+
+form{
+	display: grid;
+}
+
+.btn{
+	width: 150px;
+    justify-self: center;
+    background-color: #9c27b075;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.serialHolder{
+	border-top: 1px solid #673ab7b3;
+}
+
+.purchaseHolder{
+	border-bottom: 1px solid #673ab7b3;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #9c27b0;
+}
+
+.bckHolder{
+	    margin-top: 20px;
+    text-align: center;
+}
+
+.backbtn{
+	color: #2196f3;
+	background: none;
+    border: none;
+    cursor: pointer;
+}
